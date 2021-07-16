@@ -1,0 +1,34 @@
+{
+  "name": "price-bee",
+  "version": "1.0.0",
+  "description": "A Discord bot to show token prices.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "1hive",
+    "hny",
+    "agve"
+  ],
+  "author": "1Hive",
+  "license": "MIT",
+  "dependencies": {
+    "@aragon/connect-thegraph": "^0.7.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "graphql-tag": "^2.11.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
